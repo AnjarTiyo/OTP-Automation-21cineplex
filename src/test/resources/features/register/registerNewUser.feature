@@ -7,4 +7,12 @@ Feature: Register New User
   Scenario: Verify Register with valid credentials
     Given Ganteng already in Register page
     When He enter valid credentials
+    And He click Register button
+    Then Registration is success
+    And Message of confirmation email has been sent shown
+
+  Scenario: Verify clicking confirmation email
+    Given Ganteng already have confirmation email
+    When He click confirmation link
+    Then He is officially registered user now
 
