@@ -1,4 +1,4 @@
-package starter.search;
+package cineplex.searchEX;
 
 import net.serenitybdd.screenplay.targets.Target;
 
