@@ -5,7 +5,7 @@ Feature: Register New User
   In order to **become registered user**
 
   Scenario: Verify Register with valid credentials
-    Given Ganteng already in Register page
+    Given Ganteng registering an account on 21cineplex.com
     When He enter valid data
     And He click Register button
     Then Registration is success
